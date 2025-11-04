@@ -2,13 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Header from './Components/Header';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+  
     <Header> </Header>
-    <App />
+     <App />
+    <Banner></Banner>
+    <Card></Card>
+    <Footer></Footer>
+   
   </>
 );
