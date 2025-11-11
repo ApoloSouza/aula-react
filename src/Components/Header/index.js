@@ -1,17 +1,11 @@
 import styles from "./Header.module.css";
 
-function Header(){
-    return (
-        //Conteúdo a ser exibido
-        //JSX = html + xml (html com css )
-        <header className={styles.header}>
-            <span> Aula Senac </span>
-            <nav>
-                <a href="#"> Home </a>
-                <a href="#"> Senac </a>
-            </nav>
-        </header>
-    );
+function Header() {
+  return (
+    <header className={styles.header}>
+      <h4>ApoloTub</h4>
+    </header>
+  );
 }
 
 export default Header;

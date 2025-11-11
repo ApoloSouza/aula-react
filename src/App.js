@@ -1,18 +1,16 @@
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import './App.css';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import Banner from './Components/Banner';
-import Card from './Components/Card';
-
+import Header from "./Components/Header";
+import Banner from "./Components/Banner";
+import VideoRepository from "./Components/VideoRepository/VideoRepository";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <Router>
-      <Header/>
-    
+    <>
+      <Header />
+      <Banner />
+      <VideoRepository />
       <Footer />
-    </Router>
+    </>
   );
 }
 

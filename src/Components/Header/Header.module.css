@@ -1,5 +1,18 @@
-.header{
-    background-color: black;
-    border-bottom: 2px solid #f44336;
-    
+.header {
+  background-color: #a85d5d;        /* vermelho típico do YouTube */
+  color: white;                     /* texto branco */
+  padding: 10px 15px;               /* altura do header */
+  display: flex;                    /* layout horizontal */
+  align-items: center;              /* centraliza verticalmente */
+  justify-content: flex-start;      /* nome alinhado à esquerda */
+  font-size: 1.2rem;                /* tamanho harmônico do texto */
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif; /* fonte moderna, similar ao YouTube */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* leve sombra para profundidade */
+  border-bottom: 2px solid #fffffff1; /* linha divisória branca translúcida */
+
+}
+
+.header h1 {
+  margin: 0;
 }

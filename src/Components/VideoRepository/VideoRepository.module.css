@@ -1,0 +1,26 @@
+.videoRepository {
+  padding: 20px;
+  background-color: #121212; /* fundo escuro suave */
+  color: #fff;
+}
+
+/* Cada categoria com espaço entre si */
+.categorySection {
+  margin-bottom: 40px;
+}
+
+/* Título da categoria */
+.categorySection h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #ffcc00;
+  padding-bottom: 5px;
+}
+
+/* Container de cards da categoria */
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: flex-start; /* alinhamento à esquerda */
+}
