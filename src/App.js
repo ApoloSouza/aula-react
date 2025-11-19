@@ -1,16 +1,9 @@
-import Header from "./Components/Header";
-import Banner from "./Components/Banner";
-import VideoRepository from "./Components/VideoRepository/VideoRepository";
-import Footer from "./Components/Footer";
+import './App.css';
+import AppRoutes from './routes';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Banner />
-      <VideoRepository />
-      <Footer />
-    </>
+    <AppRoutes />
   );
 }
 

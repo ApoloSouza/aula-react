@@ -1,18 +1,34 @@
 .header {
-  background-color: #a85d5d;        /* vermelho típico do YouTube */
-  color: white;                     /* texto branco */
-  padding: 10px 15px;               /* altura do header */
-  display: flex;                    /* layout horizontal */
-  align-items: center;              /* centraliza verticalmente */
-  justify-content: flex-start;      /* nome alinhado à esquerda */
-  font-size: 1.2rem;                /* tamanho harmônico do texto */
-  font-weight: bold;
-  font-family: 'Roboto', sans-serif; /* fonte moderna, similar ao YouTube */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* leve sombra para profundidade */
-  border-bottom: 2px solid #fffffff1; /* linha divisória branca translúcida */
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #0A2540; /* A deep, professional blue */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  box-sizing: border-box;
 }
 
-.header h1 {
-  margin: 0;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff; /* White color for better contrast */
+  text-decoration: none;
+}
+
+.navLinks a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #F6F9FC; /* A clean, light text color */
+  font-weight: 500;
+  transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.navLinks a:hover,
+.navLinks a.active {
+  color: #00D4FF; /* A vibrant accent color for hover/active state */
+  transform: scale(1.05); /* Slightly enlarge on hover */
 }

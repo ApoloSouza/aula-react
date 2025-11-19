@@ -1,25 +1,16 @@
 .card {
-  display: inline-block;
-  width: 200px;
-  margin: 12px;
-  cursor: pointer;
-  transition: transform 0.25s ease, box-shadow 0.25s ease;
-}
-
-.card img {
-  width: 100%;
-  border-radius: 8px;
-  display: block;
+    flex: 0 0 200px;
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.2s;
 }
 
 .card:hover {
-  transform: scale(1.08);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    transform: scale(1.05);
 }
 
-.title {
-  margin-top: 6px;
-  font-size: 0.9rem;
-  text-align: center;
-  color: #fff;
+.card img {
+    width: 100%;
+    display: block;
 }

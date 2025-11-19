@@ -1,7 +1,13 @@
 .footer {
-  background-color: black;
-  border-top: 2px solid #f44336;
-  padding: 20px;
+  padding: 2rem;
+  background-color: #0A2540; /* Matching the header's deep blue */
+  color: #F6F9FC; /* Clean, light text color */
   text-align: center;
-  color: white;
+  margin-top: auto; /* Pushes footer to the bottom in a flex container */
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #ced4da; /* A softer light color for less emphasis */
 }

@@ -1,26 +1,48 @@
 .videoRepository {
-  padding: 20px;
-  background-color: #121212; /* fundo escuro suave */
-  color: #fff;
+  width: 100%;
+  padding: 2rem;
+  background-color: #16222A; /* A new dark background color */
+  box-sizing: border-box;
 }
 
-/* Cada categoria com espaço entre si */
 .categorySection {
-  margin-bottom: 40px;
+  margin-bottom: 3rem;
 }
 
-/* Título da categoria */
-.categorySection h2 {
-  font-size: 1.6rem;
-  margin-bottom: 15px;
-  border-bottom: 2px solid #ffcc00;
-  padding-bottom: 5px;
+.categoryTitle {
+  font-size: 1.8rem;
+  color: #F6F9FC;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #00D4FF;
+  display: inline-block;
 }
 
-/* Container de cards da categoria */
 .cardsContainer {
   display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: flex-start; /* alinhamento à esquerda */
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  gap: 2rem; /* Adds space between the cards */
+  overflow-x: auto;
+  padding-bottom: 1rem;
+}
+
+/* 
+  Assuming your Card component has a main container, these styles would apply to it.
+  For better component encapsulation, you might want to have these styles
+  in a Card.module.css file and apply them from the Card component itself.
+  I'm adding a placeholder style here to show how the cards could look.
+*/
+.card {
+  background-color: rgba(10, 37, 64, 0.5);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
 }

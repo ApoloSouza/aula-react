@@ -1,22 +1,21 @@
 .banner {
-  /* gradiente suave, moderno */
-  background: linear-gradient(135deg, #a85d5d, #a85d5d); /* vermelho YouTube para laranja suave */
-  
-  width: 100%;
-  min-height: 200px; /* altura padrão do banner */
-  
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* sombra leve no texto */
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  padding: 4rem 2rem;
+  background-color: #16222A; /* A new dark background color */
+  text-align: center;
+  border-bottom: 1px solid #2a3b47; /* A subtle darker border */
 }
 
-.banner h2 {
-  color: white;
-  font-size: 1.8rem; /* tamanho maior, destaque */
-  font-weight: bold;
-  margin: 0;
-  font-family: 'Roboto', sans-serif;
+.banner h1 {
+  font-size: 2.8rem;
+  color: #F6F9FC; /* Light text color for high contrast */
+  margin: 0 0 1rem 0;
+  font-weight: 700;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  color: #ced4da; /* A softer light color for the paragraph */
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
 }
